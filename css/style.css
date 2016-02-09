@@ -1,0 +1,201 @@
+header {
+	padding: 15px 0;
+	border-bottom: solid #333 1px;
+	background: #333;
+}
+
+.logo {
+	width: 80px;
+	height: 80px;
+}
+
+nav ul {
+	list-style-type: none;
+	padding-top: 34px;
+	margin: 0;
+	float: right;
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+	white-space: nowrap; 
+}
+
+a{
+	text-decoration: none;
+	color:#237DB8;
+}
+
+li{
+	list-style-type: none;
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+nav li{
+	position: relative;
+	float: left;
+}
+
+nav li:hover a {
+	background: #585858;
+}
+
+nav a{
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #eee;
+	text-shadow: 2px 2px 4px
+	#000;
+	font-family: Arial;
+}
+
+nav a:hover {
+	color:#fff;
+}	
+
+/* ---------------SECTION----------------------------- */
+
+.vinyles {
+	padding: 15px 0;
+	border-bottom: solid #C3C3C3 1px;
+	background: #E5E5E6;
+	padding-bottom: 25px;
+}
+
+.disco{
+	
+	width: 200px;
+	height: 200px;
+	border: solid white 3px;
+	box-shadow: -1px 0px 2px 0px #adadad;
+	margin-top:25px;
+
+	
+}
+
+h3{
+	margin-top: 10px;
+	margin-left: 3px;
+	font-family: Arial;
+	font-size: 120%
+}
+
+span{
+	font-size: 65%;
+	color: #237DB8;
+	&#8594
+}
+
+.titulos_styles{
+	
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+.Apps{
+	padding: 15px 0;
+	background: white;
+
+
+}
+
+.margin{
+	margin-right: 20px;
+}
+
+.discoapp{
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	border: solid white 3px;
+	box-shadow: -1px 0px 2px 0px #adadad;
+	margin: 30px 50px 0px -15px;
+}
+
+.titulos_estilos{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+.titulos_peques{
+	position: relative;
+	
+
+}
+
+.titulos_grandes{
+	position: absolute;
+	margin-left: 17px;
+}
+
+.titulos_extralargos{
+	position: absolute;
+	margin-left: 5px;
+}
+
+.icon{
+	width: 5%;
+	height: 5%;
+	margin-left: -15px;
+}
+
+/* ---------------FOOTER----------------------------- */
+
+
+footer{
+	background: #4D4D4D;
+	padding: 20px 0;
+	margin-top: 50px;
+}
+
+.texto_descripcion{
+	font-family: Arial;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 15px;
+	line-height: 1.8em;
+
+}
+
+.pie_letra{
+	font-family: Arial;
+	color: #C3C3C3;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 25px;
+
+}
+
+.derechos_reservados{
+	font-family: Arial;
+	color: #979797;
+	font-size: 11px;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 20px;
+
+}
+
+.leermas{
+	color: #C3C3C3;
+}
+
+h4{
+	font-family: Arial;
+	color: #4D4D4D;
+	margin-top: 30px;
+}
+
+.suscribetext{
+	margin-top: 20px;
+	font-family: Arial;
+	font-size: 13px;
+	color: #4D4D4D;
+	line-height: 1.5em;
+}
