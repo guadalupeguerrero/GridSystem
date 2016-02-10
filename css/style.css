@@ -1,12 +1,11 @@
 header {
 	padding: 15px 0;
-	border-bottom: solid #333 1px;
-	background: #333;
+	background: #8A176D;
 }
 
 .logo {
-	width: 80px;
-	height: 80px;
+	width: 120px;
+	height: 90px;
 }
 
 nav ul {
@@ -25,7 +24,9 @@ a{
 	color:#237DB8;
 }
 
+
 li{
+	
 	list-style-type: none;
 	font-family: Arial;
 	font-size: 12px;
@@ -38,15 +39,13 @@ nav li{
 }
 
 nav li:hover a {
-	background: #585858;
+	background: #8E3E7A;
 }
 
 nav a{
 	text-decoration: none;
 	padding: 10px 15px;
 	color: #eee;
-	text-shadow: 2px 2px 4px
-	#000;
 	font-family: Arial;
 }
 
@@ -56,11 +55,21 @@ nav a:hover {
 
 /* ---------------SECTION----------------------------- */
 
+.frase{
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	color: #606060;
+	line-height: 1.2em;
+}
+
+
 .vinyles {
 	padding: 15px 0;
 	border-bottom: solid #C3C3C3 1px;
 	background: #E5E5E6;
 	padding-bottom: 25px;
+	padding-top: 40px;
 }
 
 .disco{
@@ -69,9 +78,13 @@ nav a:hover {
 	height: 200px;
 	border: solid white 3px;
 	box-shadow: -1px 0px 2px 0px #adadad;
-	margin-top:25px;
+	margin-top:40px;
+}
 
-	
+iframe{
+	position: absolute;
+	margin-right: 8px;
+	margin-top: 30px;
 }
 
 h3{
@@ -104,21 +117,25 @@ span{
 
 .margin{
 	margin-right: 20px;
+	margin-top: 350px;
+	margin-bottom: -350px;
 }
 
 .discoapp{
-	display: inline-block;
+	position: relative;
 	width: 120px;
 	height: 120px;
 	border: solid white 3px;
 	box-shadow: -1px 0px 2px 0px #adadad;
 	margin: 30px 50px 0px -15px;
+	
 }
 
 .titulos_estilos{
 	font-family: Arial;
 	font-size: 12px;
 	font-weight: bold;
+	color: #8E0C76;
 }
 
 
@@ -148,9 +165,10 @@ span{
 
 
 footer{
+	
 	background: #4D4D4D;
 	padding: 20px 0;
-	margin-top: 50px;
+	margin-top: 380px;
 }
 
 .texto_descripcion{
@@ -189,7 +207,7 @@ footer{
 h4{
 	font-family: Arial;
 	color: #4D4D4D;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .suscribetext{
